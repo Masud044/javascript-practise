@@ -1,4 +1,4 @@
 function changeFunction(){
-    document.getElementById('change').innerHTML="new Bangladesh"+" "+"all the clear bad behavier"
-    document.getElementById('change').style.fontSize='60px'
+    document.getElementById('change').innerHTML= Date();
+    // document.getElementById('change').style.fontSize='60px'
 }
