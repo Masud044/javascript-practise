@@ -1,4 +1,8 @@
+const name = ["masud","rana","rakibul","sumon"]
 function changeFunction(){
-    document.getElementById('change').innerHTML= Date();
-    // document.getElementById('change').style.fontSize='60px'
+    document.getElementById('change').innerHTML+= 
+    
+   `
+    <li>${name}</li>
+   `
 }

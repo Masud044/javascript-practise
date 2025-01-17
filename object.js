@@ -34,7 +34,11 @@ const person2 = {
   };
   
   // Stringify Object
-  let myString = JSON.stringify(person2);
-  console.log(myString)
+  // let myString = JSON.stringify(person2);
+  // console.log(myString)
+
+  let js = JSON.parse(person2)
+
+  console.log(js)
 
   
